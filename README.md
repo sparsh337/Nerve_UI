@@ -1,12 +1,71 @@
-# React + Vite
+# 📊 Nerve UI - Strategy Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive React-based UI project to display trading strategies based on selected market views and dates. It was built as a frontend assignment using **React + Vite**.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Project on GitHub Pages](https://sparsh337.github.io/Nerve_UI/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 📅 Select a trading date from a styled dropdown
+- 🔄 Toggle between market views (Bullish, Bearish, RangeBound, Volatile)
+- 📋 Dynamic strategy cards rendered vertically with counts
+- 🖌 Clean responsive UI
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── DateDropdown.jsx
+│   ├── StrategyCards.jsx
+│   ├── ViewToggle.jsx
+│   └── Watermark.jsx
+├── data/
+│   ├── dateArray.js
+│   └── strategyArray.js
+├── App.jsx
+├── main.jsx
+├── App.css
+└── index.html
+```
+
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/sparsh337/Nerve_UI.git
+cd Nerve_UI
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+[### To GitHub Pages:](https://sparsh337.github.io/Nerve_UI/)
+
+
+## 🧑‍💻 Author
+
+- Made by **Sparsh.M.Doshi**
+- [GitHub Profile](https://github.com/sparsh337)
+
+---
+
+
+## 📌 License
+
+This project is for demo purposes only. All rights reserved by the creator.
