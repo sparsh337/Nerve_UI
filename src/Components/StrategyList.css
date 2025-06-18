@@ -1,0 +1,50 @@
+/*vertical Wrapping */
+.cards-wrapper.vertical-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+  }
+  
+  /* Each row: name on the left, count on the right */
+  .strategy-row {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 12px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .strategy-row:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 6px var(--shadow);
+    border-color: var(--text-primary);
+    color: var(--primary);
+  }
+  
+  
+  /* Name styling */
+  .strategy-name {
+    font-weight: 600;
+    /* color: var(--text-primary); */
+  }
+  
+  
+  /* Count styling */
+  .strategy-count {
+    text-align:end;
+    font-weight: 600;
+    opacity: 0.7;
+    /* color: var(--text-muted); */
+    font-size: 14px;
+  }
+  .strategy-count:hover{
+    cursor:pointer;
+  }
+
+  
+  
+
+  
+  

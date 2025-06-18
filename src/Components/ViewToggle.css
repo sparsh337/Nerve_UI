@@ -1,0 +1,29 @@
+  .view-toggle {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .view-toggle button {
+    flex: 1;
+    padding: 10px 0;
+    font-size: 14px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    
+  }
+
+  
+
+  .view-toggle button.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+  }
+  .view-toggle button:not(.active):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 6px var(--shadow);
+    border-color: var(--primary);
+  }
+  
