@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Nerve_Ui_Component/',
+  base: "/Nerve_UI_Updated/",
 });
